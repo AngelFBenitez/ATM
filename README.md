@@ -6,6 +6,8 @@ I tried to format the program as easy as it can be, but if you believe there is 
 
 ![alt text](https://github.com/asvpxangel/ATM/blob/master/Output%20Screenshots/2.png)
 
+![alt text](https://github.com/asvpxangel/ATM/blob/master/Output%20Screenshots/3.png)
+
 ![alt text](https://github.com/asvpxangel/ATM/blob/master/Output%20Screenshots/4.png)
 
 ![alt text](https://github.com/asvpxangel/ATM/blob/master/Output%20Screenshots/5.png)
