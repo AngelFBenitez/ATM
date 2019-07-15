@@ -17,6 +17,7 @@ int main() {
 	while (pin != 1234) {
 		printf("ENTER YOUR PIN NUMBER:");
 		scanf("%d", &pin);
+		printf("\n");
 		if (pin != 1234) {
 			printf("Invalid PIN, Try Again\n");
 			
@@ -35,6 +36,7 @@ int main() {
 // program asks if user would like the receipt
 	printf("would you like a reciept\n 1. for Yes\n 2. for No\n");
 	scanf("%d", &reci);
+	printf("\n");
 	if (reci >= 3) {
 		printf("ERROR Reciept will not be printed\n");
 		system("pause");
@@ -44,7 +46,7 @@ int main() {
 // Main Menu
 	do
 	{
-		system("cls");
+		//system("cls");
 		printf("********Welcome to ATM Service**************\n");
 		printf("1. Balance\n");
 		printf("2. Withdraw Cash\n");
@@ -64,6 +66,7 @@ int main() {
 			// Option 1: Balance
 		case 1:
 			printf("Your Balance is : %.2lf \n", Amount);
+			printf("\n");
 			system("pause");
 			break;
 			
@@ -78,19 +81,22 @@ int main() {
 			else
 			{
 				Amount = Amount - Withdraw;
-				printf("\n\n Withdrawl Accepted...");
-				printf("\n Your Current Balance is: %.2lf \n", Amount);
+				printf("Withdrawl Accepted...\n ");
+				printf("Your Current Balance is: %.2lf \n", Amount);
+				printf("\n");
+				
 			}
 			system("pause");
 			break;
 			
 			// Option 3: Deposit
 		case 3:
-			printf("How much would you like to Desposit:\n");
+			printf("How much would you like to Deposit:\n");
 
 			scanf(" %lf", &Deposit);
 			Amount = Amount + Deposit;
 			printf("Your Current Balance is: %.2lf \n", Amount);
+			printf("\n");
 			system("pause");
 			break;
 			
